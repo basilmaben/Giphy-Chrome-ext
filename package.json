@@ -1,0 +1,23 @@
+{
+  "name": "MS_Chrome-extension_Lupus_Tep_Online_Full-time_2020_1",
+  "version": "1.0.0",
+  "description": "## Learning Competencies",
+  "main": "popup.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/MS_Chrome-extension_Lupus_Tep_Online_Full-time_2020_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/MS_Chrome-extension_Lupus_Tep_Online_Full-time_2020_1/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/MS_Chrome-extension_Lupus_Tep_Online_Full-time_2020_1#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

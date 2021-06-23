@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,         
+    "name": "Example",
+    "version": "1.0",
+    "description": "Entering the name in popup",
+    "icons": {
+        "128": "Logo.png",
+        "64" : "Logo.png"
+    },
+    "browser_action": {
+        "default_icon": "Logo.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+    }
